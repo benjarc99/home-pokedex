@@ -10,7 +10,7 @@ html {
 
 *,
 *:after,
-*::before {
+*:before {
   box-sizing: inherit;
 }
 
@@ -24,10 +24,6 @@ body {
 
 header {
   width: 100%;
-  /* position: relative; */
-}
-.contenedor-header {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,17 +31,6 @@ header {
   background-color: var(--header-background-color);
   margin-bottom: 30px;
 }
-
-/* Curva en contenedor header*/
-/* .ondulacion-abajo-header {
-  position: absolute;
-  top: calc(573.23px - 215.5px);
-}
-
-.ondulacion-abajo-header img {
-  width: 100vmax;
-} */
-/************/
 
 .nav-header {
   z-index: 500;
@@ -234,7 +219,3 @@ main h2 {
     rgba(255, 255, 255, 0.9)
   );
 }
-
-/* .ondulacion-footer img {
-  width: 100vmax; 
-} */
